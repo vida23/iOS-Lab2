@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27BCC78623994E7F002E7E7C /* ExperienceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BCC78523994E7F002E7E7C /* ExperienceTableViewController.swift */; };
+		2702084123996D9B00C4810F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2702084023996D9B00C4810F /* TableViewController.swift */; };
+		2702084323996E1200C4810F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2702084223996E1200C4810F /* TableViewCell.swift */; };
 		27F721B823992D6D000690B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F721B723992D6D000690B2 /* AppDelegate.swift */; };
 		27F721BA23992D6D000690B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F721B923992D6D000690B2 /* SceneDelegate.swift */; };
 		27F721BC23992D6D000690B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F721BB23992D6D000690B2 /* ViewController.swift */; };
@@ -18,7 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		27BCC78523994E7F002E7E7C /* ExperienceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceTableViewController.swift; sourceTree = "<group>"; };
+		2702084023996D9B00C4810F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		2702084223996E1200C4810F /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		27F721B423992D6D000690B2 /* iOSLab2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSLab2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27F721B723992D6D000690B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27F721B923992D6D000690B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,11 +62,12 @@
 		27F721B623992D6D000690B2 /* iOSLab2 */ = {
 			isa = PBXGroup;
 			children = (
+				2702084223996E1200C4810F /* TableViewCell.swift */,
+				2702084023996D9B00C4810F /* TableViewController.swift */,
 				27F721B723992D6D000690B2 /* AppDelegate.swift */,
 				27F721B923992D6D000690B2 /* SceneDelegate.swift */,
 				27F721BB23992D6D000690B2 /* ViewController.swift */,
 				27F721BD23992D6D000690B2 /* Main.storyboard */,
-				27BCC78523994E7F002E7E7C /* ExperienceTableViewController.swift */,
 				27F721C323992D6F000690B2 /* Assets.xcassets */,
 				27F721C523992D6F000690B2 /* LaunchScreen.storyboard */,
 				27F721C823992D6F000690B2 /* Info.plist */,
@@ -147,8 +150,9 @@
 				27F721C223992D6D000690B2 /* iOSLab2.xcdatamodeld in Sources */,
 				27F721BC23992D6D000690B2 /* ViewController.swift in Sources */,
 				27F721B823992D6D000690B2 /* AppDelegate.swift in Sources */,
+				2702084323996E1200C4810F /* TableViewCell.swift in Sources */,
+				2702084123996D9B00C4810F /* TableViewController.swift in Sources */,
 				27F721BA23992D6D000690B2 /* SceneDelegate.swift in Sources */,
-				27BCC78623994E7F002E7E7C /* ExperienceTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
