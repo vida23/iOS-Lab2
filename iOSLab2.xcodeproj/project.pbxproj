@@ -9,9 +9,13 @@
 /* Begin PBXBuildFile section */
 		2702084123996D9B00C4810F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2702084023996D9B00C4810F /* TableViewController.swift */; };
 		2702084323996E1200C4810F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2702084223996E1200C4810F /* TableViewCell.swift */; };
+		2771271E243E286E003AE14B /* SkillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2771271D243E286E003AE14B /* SkillsViewController.swift */; };
+		27712720243E29A4003AE14B /* MainCVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2771271F243E29A4003AE14B /* MainCVViewController.swift */; };
+		27712722243E2B19003AE14B /* dataHandlerVar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27712721243E2B19003AE14B /* dataHandlerVar.swift */; };
+		27712724243E2F2A003AE14B /* Datahandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27712723243E2F2A003AE14B /* Datahandler.swift */; };
+		27712726243E3534003AE14B /* ExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27712725243E3534003AE14B /* ExperienceViewController.swift */; };
 		27F721B823992D6D000690B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F721B723992D6D000690B2 /* AppDelegate.swift */; };
 		27F721BA23992D6D000690B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F721B923992D6D000690B2 /* SceneDelegate.swift */; };
-		27F721BC23992D6D000690B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F721BB23992D6D000690B2 /* ViewController.swift */; };
 		27F721BF23992D6D000690B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F721BD23992D6D000690B2 /* Main.storyboard */; };
 		27F721C223992D6D000690B2 /* iOSLab2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27F721C023992D6D000690B2 /* iOSLab2.xcdatamodeld */; };
 		27F721C423992D6F000690B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27F721C323992D6F000690B2 /* Assets.xcassets */; };
@@ -21,10 +25,14 @@
 /* Begin PBXFileReference section */
 		2702084023996D9B00C4810F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		2702084223996E1200C4810F /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		2771271D243E286E003AE14B /* SkillsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsViewController.swift; sourceTree = "<group>"; };
+		2771271F243E29A4003AE14B /* MainCVViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCVViewController.swift; sourceTree = "<group>"; };
+		27712721243E2B19003AE14B /* dataHandlerVar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataHandlerVar.swift; sourceTree = "<group>"; };
+		27712723243E2F2A003AE14B /* Datahandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datahandler.swift; sourceTree = "<group>"; };
+		27712725243E3534003AE14B /* ExperienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceViewController.swift; sourceTree = "<group>"; };
 		27F721B423992D6D000690B2 /* iOSLab2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSLab2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27F721B723992D6D000690B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27F721B923992D6D000690B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		27F721BB23992D6D000690B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		27F721BE23992D6D000690B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27F721C123992D6D000690B2 /* iOSLab2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOSLab2.xcdatamodel; sourceTree = "<group>"; };
 		27F721C323992D6F000690B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -66,12 +74,16 @@
 				2702084023996D9B00C4810F /* TableViewController.swift */,
 				27F721B723992D6D000690B2 /* AppDelegate.swift */,
 				27F721B923992D6D000690B2 /* SceneDelegate.swift */,
-				27F721BB23992D6D000690B2 /* ViewController.swift */,
 				27F721BD23992D6D000690B2 /* Main.storyboard */,
 				27F721C323992D6F000690B2 /* Assets.xcassets */,
 				27F721C523992D6F000690B2 /* LaunchScreen.storyboard */,
 				27F721C823992D6F000690B2 /* Info.plist */,
 				27F721C023992D6D000690B2 /* iOSLab2.xcdatamodeld */,
+				2771271D243E286E003AE14B /* SkillsViewController.swift */,
+				2771271F243E29A4003AE14B /* MainCVViewController.swift */,
+				27712721243E2B19003AE14B /* dataHandlerVar.swift */,
+				27712723243E2F2A003AE14B /* Datahandler.swift */,
+				27712725243E3534003AE14B /* ExperienceViewController.swift */,
 			);
 			path = iOSLab2;
 			sourceTree = "<group>";
@@ -148,10 +160,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				27F721C223992D6D000690B2 /* iOSLab2.xcdatamodeld in Sources */,
-				27F721BC23992D6D000690B2 /* ViewController.swift in Sources */,
+				27712720243E29A4003AE14B /* MainCVViewController.swift in Sources */,
+				27712726243E3534003AE14B /* ExperienceViewController.swift in Sources */,
+				27712722243E2B19003AE14B /* dataHandlerVar.swift in Sources */,
 				27F721B823992D6D000690B2 /* AppDelegate.swift in Sources */,
 				2702084323996E1200C4810F /* TableViewCell.swift in Sources */,
+				2771271E243E286E003AE14B /* SkillsViewController.swift in Sources */,
 				2702084123996D9B00C4810F /* TableViewController.swift in Sources */,
+				27712724243E2F2A003AE14B /* Datahandler.swift in Sources */,
 				27F721BA23992D6D000690B2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
