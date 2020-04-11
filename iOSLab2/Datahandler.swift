@@ -14,11 +14,11 @@ class DataHandler {
     
     let experiences : [[Experiences]] =
         [[
-            Experiences (id:1, image: "\(1)", describtion:"Work \(1)", date: "2015-2019"),
-            Experiences (id:2,image: "\(2)", describtion: "Work \(2)", date: "2013-2013")],
+            Experiences (id:1, image: "\(1)", describtion:"Parttime job", date: "2019-Current"),
+            Experiences (id:2,image: "\(2)", describtion: "Parttime job", date: "2018-2019")],
          
-         [Experiences (id:3,image:"\(3)", describtion: "Education \(1)",date: "2015-2017"),
-         Experiences (id:4, image: "\(4)", describtion :"Education \(2)", date: "2018-..")
+         [Experiences (id:3,image:"\(4)", describtion: "University", date: "2017-Current"),
+         Experiences (id:4, image: "\(3)", describtion :"High school", date: "2014-2017")
             
         ]]
     

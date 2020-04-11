@@ -11,9 +11,10 @@ import UIKit
 class TableViewCell: UITableViewCell {
   
     @IBOutlet weak var cellImage: UIImageView!
-    @IBOutlet weak var cellDesc: UILabel!
+    
     @IBOutlet weak var cellDate: UILabel!
     
+    @IBOutlet weak var cellDesc: UILabel!
     
     
     override func awakeFromNib() {

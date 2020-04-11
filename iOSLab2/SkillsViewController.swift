@@ -11,7 +11,7 @@ import UIKit
 
 class SkillsViewController: UIViewController {
 
-    @IBOutlet weak var AnimatedView: UIView!
+    @IBOutlet weak var animationView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,10 +20,10 @@ class SkillsViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         UIView.animate(withDuration: 2) {
-            self.AnimatedView.backgroundColor = UIColor.black
+            self.animationView.backgroundColor = UIColor.systemPink
         }
         UIView.animate(withDuration: 10, delay: 4, options: .curveEaseOut, animations: {
-            self.AnimatedView.alpha = CGFloat(0)
+            self.animationView.alpha = CGFloat(0)
         },completion: nil)
             
         }

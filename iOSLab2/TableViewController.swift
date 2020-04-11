@@ -10,6 +10,7 @@ import UIKit
 
 class TableViewController: UIViewController {
 
+
     @IBOutlet weak var tableView: UITableView!
     
     var data:[[Experiences]] = [[]]
@@ -50,7 +51,7 @@ extension TableViewController:UITableViewDelegate, UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if let cell = tableView.dequeueReusableCell(withIdentifier: "TableViewCell", for: indexPath) as? TableViewCell{
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "CustomCell", for: indexPath) as? TableViewCell{
             let experience:
                 Experiences = DataHandler.instance.experiences[indexPath.section][indexPath.row]
             cell.cellImage.image = UIImage(named: experience.image)
@@ -64,6 +65,5 @@ extension TableViewController:UITableViewDelegate, UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath:IndexPath){
         DataHandler.instance.setSelectedExperienceId(withIndex: indexPath.row, withIndex: indexPath.section)
-        performSegue(withIdentifier: "showDetail", sender: self)
     }
 }
